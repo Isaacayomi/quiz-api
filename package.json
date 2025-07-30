@@ -2,7 +2,7 @@
   "name": "quiz-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch quizzes.json --port 10000"
+    "start": "json-server --watch quizzes.json --port $PORT"
   },
   "keywords": [],
   "author": "",
